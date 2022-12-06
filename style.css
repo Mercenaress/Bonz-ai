@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.landing__background {
+    background-image: url(images/09-night.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header__menu {
+    width: 100px;
+}
+
+.header__logo {
+    width: 60px;
+    align-self: center;
+    justify-self: center
+}
+
+.header__booking {
+    width: 100px;
+    font-family: 'Cardo';
+    font-size: 0.8rem;
+    text-align: end;
+}
+
+.main__landing {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan__head-text {
+    font-family: 'Cardo';
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px
+}
+
+.slogan__bread-text {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
