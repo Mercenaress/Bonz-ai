@@ -148,7 +148,7 @@ body {
     background-image: url(images/story-backdrop.svg);
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position: top 30px right 30px;
+    background-position: top 40px right 30px;
 }
 
 .about__head-text-top {
@@ -159,12 +159,12 @@ body {
     padding: 10px 30px 150px 30px;
 }
 
-.about__head-text {
+.about__head-text--beige {
     font-family: 'Cardo';
     font-size: 2rem;
     color: #C1B098;
     font-weight: 300;
-    padding: 10px 30px;
+    padding: 0px 30px 10px 30px;
 }
 
 .about__bread-text--beige {
@@ -188,3 +188,58 @@ body {
     max-height: 20vh;
     min-width: 70vw;
 }
+
+.wrapper__about-cabins {
+    background-color: #F3E9DC;
+    background-image: url(images/cabins-backdrop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top 20px left 20px;
+}
+
+.about__head-text--blue {
+    font-family: 'Cardo';
+    font-size: 2rem;
+    color: #282838;
+    font-weight: 300;
+    text-align: end;
+    padding: 0px 30px 120px 30px;
+}
+
+.about__bread-text--blue {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #282838;
+    padding: 0px 20px 40px 20px;   
+}
+
+.about__explore {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #713A25;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 40px;
+}
+
+.cabin-image__wrapper {
+    min-width: 100vw;
+    min-height: 40vh;
+    background: linear-gradient(to bottom, #F3E9DC 0%, #F3E9DC 50%, #282838 50%, #282838 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabin-image__overlays {
+    background-image: url(images/07-day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: 30vh;
+    min-width: 90vw;
+    margin: 10px;
+}
+
