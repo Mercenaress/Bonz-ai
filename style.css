@@ -93,3 +93,31 @@
     text-decoration: none;
     padding: 10px;
 }
+
+/* About us Page */
+
+.header__background--img {
+    background-image: url(images/04-night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-slogan__wrapper {
+    padding: 220px 20px 80px 20px;
+}
+
+.about--head-text {
+    font-family: 'Cardo';
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.about--bread-text {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+}
