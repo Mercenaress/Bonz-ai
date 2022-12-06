@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+body {
+    display: grid;
+    grid-template-columns: 100%;
+}
+
 /* Landing Page */
 
 .landing__background {
@@ -97,27 +102,89 @@
 /* About us Page */
 
 .header__background--img {
-    background-image: url(images/04-night.jpg);
+    background: linear-gradient(to bottom, #0000004e, #0000004e ),  url(images/04-night.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    min-height: 100vh;
 }
 
 .about-slogan__wrapper {
-    padding: 220px 20px 80px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 150px 30px;
+    min-height: 80vh;
 }
 
-.about--head-text {
+.about__title-text {
     font-family: 'Cardo';
     font-size: 3rem;
     color: #fff;
     font-weight: 300;
     text-align: center;
+    padding: 10px 0;
 }
 
-.about--bread-text {
+.about__bread-text {
     font-family: 'Cardo';
     font-size: 1rem;
     color: #fff;
     text-align: center;
+}
+
+.nav__scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav__scroll-text {
+    color: #fff;
+}
+
+.wrapper__about-us {
+    background-color: #282838;
+    background-image: url(images/story-backdrop.svg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: top 30px right 30px;
+}
+
+.about__head-text-top {
+    font-family: 'Cardo';
+    font-size: 2rem;
+    color: #C1B098;
+    font-weight: 300;
+    padding: 10px 30px 150px 30px;
+}
+
+.about__head-text {
+    font-family: 'Cardo';
+    font-size: 2rem;
+    color: #C1B098;
+    font-weight: 300;
+    padding: 10px 30px;
+}
+
+.about__bread-text--beige {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #C1B098;
+    padding: 0px 20px;
+}
+
+.about-image__wrapper {
+    min-width: 100vw;
+    min-height: 25vh;
+    background: linear-gradient(to bottom, #282838 0%, #282838 50%, #F3E9DC 50%, #F3E9DC 100%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-image {
+    max-height: 20vh;
+    min-width: 70vw;
 }
