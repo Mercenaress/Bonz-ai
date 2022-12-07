@@ -8,12 +8,12 @@
     <title>Bonzai about us</title>
 </head>
 <body>
-    <section class="header__background--img">
-        <header class="header">
+    <header class="header">
+            <section class="header__background--about-img">
             <nav class="header__nav">
                 <a class="header__menu" href="menu.html"><img src="images/menu-icon.svg" alt=""></a>
                 <a href=""><img class="header__logo" src="images/bonz.ai-logo-white-portrait.png" alt=""></a>
-                <a class="header__booking" href="">Book Here</a>
+                <a class="header__booking" href="booking.html">Book Here</a>
             </nav>
             <section class="about-slogan__wrapper">
                 <h1 class="about__title-text">OUR STORY</h1>
@@ -57,15 +57,19 @@
             </section>
         </main>
         <footer class="footer__about">
-            <nav class="footer__about-nav">
-                <a class="footer__link--blue" href="index.html">Home</a>
-                <a class="footer__link--blue" href="about.html">About us</a>
-                <a class="footer__link--blue" href="">FAQ</a>
-                <a class="footer__link--blue" href="">Booking</a>
-                <a class="footer__link--blue" href="">Contact us</a>
-                <a class="footer__link--blue" href="">Activities</a>
+            <nav class="footer__nav">
+                <section class="footer__nav--left">
+                    <a class="footer__link--blue" href="index.html">Home</a>
+                    <a class="footer__link--blue" href="about.html">About us</a>
+                    <a class="footer__link--blue" href="">FAQ</a>
+                </section>
+                <section class="footer__nav--right">
+                    <a class="footer__link--blue" href="">Booking</a>
+                    <a class="footer__link--blue" href="">Contact us</a>
+                    <a class="footer__link--blue" href="">Activities</a>
+                </section>
             </nav>
-            <section class="footer__adress--blue">
+            <section class="footer__adress__wrapper">
                 <h5 class="footer__head-text--blue">Location</h5>
                 <p class="footer__bread-text--blue">Hillside Mountainview</p>
                 <p class="footer__bread-text--blue">Reykjavik</p>
@@ -73,20 +77,19 @@
                 <p class="footer__bread-text--blue">+354 563 249 73</p>
             </section>
             <section class="about__newsletter-signup__wrapper">
-                <form class="about__newsletter-signup__form">
+                <form class="footer__newsletter-signup__form">
                     <label class="label__nlemail--blue" for="nlemail">Join our newsletter<br>Enter your email address</label>
                     <input class="input__nlemail--blue" type="email" id="nlemail" placeholder="John.Doe@gmail.com">
                     <button class="button__nlemail--blue">SIGN UP</button>
                 </form>
             </section>
-            <section class="about__app__wrapper">
-                <p class="footer__bread-text--blue">Download our app</p>
-                <img class="footer__device-icon--brown" src="images/mobile-device-brown.svg" alt="">
-                <p class="footer__bread-text--blue">Avilable on iOS and Android</p>
+            <section class="footer__app__wrapper">
+                <!-- <img class="footer__device-icon--brown" src="images/mobile-device-brown.svg" alt=""> -->
+                <p class="footer__bread-text--blue">Download our app <br> Available on iOS and Android</p>
             </section>
-            <section class="about__medias__wrapper">
+            <section class="footer__medias__wrapper">
                 <p class="footer__bread-text--blue">Find us on Social media</p>
-                <section class="about__media-icons__wrapper">
+                <section class="footer__media-icons__wrapper">
                     <img class="footer__facebook-icon--brown" src="images/facebook-brown.svg" alt="">
                     <img class="footer__instagram-icon--brown" src="images/instagrambrown.svg" alt="">
                     <img class="footer__twitter-icon--brown" src="images/twitter-brown.svg" alt="">

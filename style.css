@@ -101,7 +101,7 @@ body {
 
 /* About us Page */
 
-.header__background--img {
+.header__background--about-img {
     background: linear-gradient(to bottom, #0000004e, #0000004e ),  url(images/04-night.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@ body {
     background-image: url(images/cabins-backdrop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: top 20px left 20px;
+    background-position: top 15px left 20px;
 }
 
 .about__head-text--blue {
@@ -305,4 +305,99 @@ body {
     text-align: center;
     padding: 15px 30px;
 }
+
+.footer__about {
+    background: #F3E9DC;
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: space-between
+}
+
+.footer__nav--left {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer__nav--right {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.footer__link--blue {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #282838;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 0px;
+}
+
+.footer__adress__wrapper {
+    padding: 0px 30px;
+}
+
+.footer__head-text--blue {
+    font-family: 'Cardo';
+    font-size: 1.2rem;
+    color: #282838;
+    padding: 5px 0px;
+}
+
+.footer__bread-text--blue {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #282838;
+    font-weight: 600;
+}
+
+.footer__newsletter-signup__form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.label__nlemail--blue {
+    font-family: 'Cardo';
+    font-size: 1.2rem;
+    color: #282838;
+    font-weight: 600;
+}
+
+.input__nlemail--blue {
+    background-color: #F3E9DC;
+    font-family: 'Cardo';
+    font-size: 1.05rem;
+    color: #282838;
+    border: none;
+    border-bottom: 2px solid #282838;
+    padding-top: 10px;
+}
+
+.button__nlemail--blue {
+    background-color: #F3E9DC;
+    font-family: 'Cardo';
+    font-size: 1.2rem;
+    color: #713A25;
+    border: 2px solid #282838;
+    margin: 10px auto 10px 0px;
+}
+
+.footer__app__wrapper {
+    display: flex;
+    padding: 0px 30px;
+}
+
+.footer__medias__wrapper {
+    padding: 15px 30px;
+}
+
+.footer__media-icons__wrapper {
+    padding: 5px 0px 100px 0px;
+}
+
+/* Booking Page */
 
