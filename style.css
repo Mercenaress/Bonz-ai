@@ -401,3 +401,129 @@ body {
 
 /* Booking Page */
 
+.header__background--booking-img {
+    background: linear-gradient(to bottom, #0000004e, #0000004e ),  url(images/05-night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+}
+
+.main__booking {
+    background-color: #F3E9DC;
+    padding: 60px 30px;
+}
+
+.form__stay-search {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #713A25;
+    margin-bottom: 60px;
+}
+
+.form__date-picker,
+.form__visitor-amount {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form__arrival__wrapper,
+.form__departure__wrapper,
+.form__adults__wrapper,
+.form__children__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.form__label-text {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #282838;
+    font-weight: 600;
+}
+
+.form__date,
+.form__dropdown {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #282838;
+    font-weight: 600;
+    border: none;
+    background-color: #F3E9DC;
+    border-bottom: 2px solid #713A25;
+    margin-top: 10px;
+}
+
+.form__dropdown {
+    min-width: 135px;
+}
+
+.button__brown--large,
+.button__brown {
+    background-color: #713A25;
+    font-family: 'Cardo';
+    color: #F3E9DC;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px -1px rgba(0,0,0,0.25);
+}
+
+.button__brown--large {
+    font-size: 1.2rem;
+    padding: 10px 50px;
+    margin: 10px auto;
+}
+
+.room__card--upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.room__card-img {
+    max-width: 50vw;
+}
+
+.room__card-text__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.info__card--title,
+.info__card--cost {
+    font-family: 'Cardo';
+    color: #282838;
+}
+
+.info__card--title {
+    font-size: 1.2rem;
+}
+
+.info__card--cost {
+    font-size: 2rem;
+}
+
+.button__brown {
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+.room__card--midline {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.room__card--info {
+    margin-bottom: 50px;
+}
+
+.info__card-text {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #282838;
+    font-weight: 600;
+    text-align: center;
+}

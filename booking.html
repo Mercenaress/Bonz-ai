@@ -17,56 +17,147 @@
             </nav>
         </section>
     </header>
-    <main>
-        <form>
-            <section>
-                <label for="arrival-date">Arrival</label>
-                <input type="date" id="arrival-date">
-                <label for="departure-date">Departure</label>
-                <input type="date" id="departure-date">
+    <main class="main__booking">
+        <form class="form__stay-search">
+            <section class="form__date-picker">
+                <section class="form__arrival__wrapper">
+                    <label class="form__label-text" for="arrival-date">Arrival</label>
+                    <input class="form__date" type="date" id="arrival-date">
+                </section>
+                <section class="form__departure__wrapper">
+                    <label class="form__label-text" for="departure-date">Departure</label>
+                    <input class="form__date" type="date" id="departure-date">
+                </section>
             </section>
-            <section>
-                <label for="adults">Adults</label>
-                <select id="adults">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                </select>
-                <label for="children">Children</label>
-                <select id="children">
-                    <option value="">1</option>
-                    <option value="">2</option>
-                    <option value="">3</option>
-                    <option value="">4</option>
-                    <option value="">5</option>
-                    <option value="">6</option>
-                </select>
+            <section class="form__visitor-amount">
+                <section class="form__adults__wrapper">
+                    <label class="form__label-text" for="adults">Adults</label>
+                    <select class="form__dropdown" id="adults">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </section>
+                <section class="form__children__wrapper">
+                    <label class="form__label-text" for="children">Children</label>
+                    <select class="form__dropdown" id="children">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </section>
             </section>
-            <button>Check availability</button>
+            <button class="button__brown--large">Check availability</button>
         </form>
-        <section>
-            <img src="images/06-day.jpg" alt="">
-            <section>
-                <h4>1 Bedroom cabin</h4>
-                <h3>250€</h3>
-                <button>Book now</button>
+        <!-- Card 1 -->
+        <section class="room__card--upper">
+            <img class="room__card-img" src="images/06-day.jpg" alt="">
+            <section class="room__card-text__wrapper">
+                <h4 class="info__card--title">1 Bedroom cabin</h4>
+                <h3 class="info__card--cost">250€</h3>
+                <button class="button__brown">Book now</button>
             </section>
         </section>
-        <section>
+        <section class="room__card--midline">
             <img src="images/person-icon.svg" alt="">
-            <p>2 People</p>
+            <p class="info__card-text">2 People</p>
             <img src="images/bed-icon.svg" alt="">
-            <p>1 Kingsize bed</p>
+            <p class="info__card-text">1 Kingsize bed</p>
             <img src="images/bath-icon.svg" alt="">
-            <p>1 Bathroom</p>
+            <p class="info__card-text">1 Bathroom</p>
         </section>
-        <section>
-            <p>· Mountain view · Free WiFi · Cable/Satellite TV ·<br>
+        <section class="room__card--info">
+            <p class="info__card-text">· Mountain view · Free WiFi · Cable/Satellite TV ·<br>
+                · Terrace · Shower · Fireplace · Bathrobes ·</p>
+        </section>  
+        <!-- Card 2 -->
+        <section class="room__card--upper">
+            <img class="room__card-img" src="images/05-day.jpg" alt="">
+            <section class="room__card-text__wrapper">
+                <h4 class="info__card--title">1 Bedroom cabin</h4>
+                <h3 class="info__card--cost">299€</h3>
+                <button class="button__brown">Book now</button>
+            </section>
+        </section>
+        <section class="room__card--midline">
+            <img src="images/person-icon.svg" alt="">
+            <p class="info__card-text">3 People</p>
+            <img src="images/bed-icon.svg" alt="">
+            <p class="info__card-text">1 Bed + 1 Sofa</p>
+            <img src="images/bath-icon.svg" alt="">
+            <p class="info__card-text">1 Bathroom</p>
+        </section>
+        <section class="room__card--info">
+            <p class="info__card-text">· Mountain view · Free WiFi · Cable/Satellite TV ·<br>
+                · Terrace · Shower · Fireplace · Bathrobes ·</p>
+        </section>
+        <!-- Card 3 -->
+        <section class="room__card--upper">
+            <img class="room__card-img" src="images/02-day.jpg" alt="">
+            <section class="room__card-text__wrapper">
+                <h4 class="info__card--title">2 Bedroom cabin</h4>
+                <h3 class="info__card--cost">450€</h3>
+                <button class="button__brown">Book now</button>
+            </section>
+        </section>
+        <section class="room__card--midline">
+            <img src="images/person-icon.svg" alt="">
+            <p class="info__card-text">4 People</p>
+            <img src="images/bed-icon.svg" alt="">
+            <p class="info__card-text">2 Kingsize bed</p>
+            <img src="images/bath-icon.svg" alt="">
+            <p class="info__card-text">2 Bathroom</p>
+        </section>
+        <section class="room__card--info">
+            <p class="info__card-text">· Mountain view · Free WiFi · Cable/Satellite TV ·<br>
                 · Terrace · Shower · Fireplace · Bathrobes ·</p>
         </section>
     </main>
+    <footer class="footer__about">
+        <nav class="footer__nav">
+            <section class="footer__nav--left">
+                <a class="footer__link--blue" href="index.html">Home</a>
+                <a class="footer__link--blue" href="about.html">About us</a>
+                <a class="footer__link--blue" href="">FAQ</a>
+            </section>
+            <section class="footer__nav--right">
+                <a class="footer__link--blue" href="">Booking</a>
+                <a class="footer__link--blue" href="">Contact us</a>
+                <a class="footer__link--blue" href="">Activities</a>
+            </section>
+        </nav>
+        <section class="footer__adress__wrapper">
+            <h5 class="footer__head-text--blue">Location</h5>
+            <p class="footer__bread-text--blue">Hillside Mountainview</p>
+            <p class="footer__bread-text--blue">Reykjavik</p>
+            <p class="footer__bread-text--blue">Iceland</p>
+            <p class="footer__bread-text--blue">+354 563 249 73</p>
+        </section>
+        <section class="about__newsletter-signup__wrapper">
+            <form class="footer__newsletter-signup__form">
+                <label class="label__nlemail--blue" for="nlemail">Join our newsletter<br>Enter your email address</label>
+                <input class="input__nlemail--blue" type="email" id="nlemail" placeholder="John.Doe@gmail.com">
+                <button class="button__nlemail--blue">SIGN UP</button>
+            </form>
+        </section>
+        <section class="footer__app__wrapper">
+            <!-- <img class="footer__device-icon--brown" src="images/mobile-device-brown.svg" alt=""> -->
+            <p class="footer__bread-text--blue">Download our app <br> Available on iOS and Android</p>
+        </section>
+        <section class="footer__medias__wrapper">
+            <p class="footer__bread-text--blue">Find us on Social media</p>
+            <section class="footer__media-icons__wrapper">
+                <img class="footer__facebook-icon--brown" src="images/facebook-brown.svg" alt="">
+                <img class="footer__instagram-icon--brown" src="images/instagrambrown.svg" alt="">
+                <img class="footer__twitter-icon--brown" src="images/twitter-brown.svg" alt="">
+            </section>
+        </section>
+    </footer>
 </body>
 </html>
