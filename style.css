@@ -232,7 +232,7 @@ body {
 }
 
 .cabin-image__overlays {
-    background-image: url(images/07-day.jpg);
+    background-image: linear-gradient(to bottom, #0000005a, #0000005a ), url(images/07-day.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -241,5 +241,68 @@ body {
     min-height: 30vh;
     min-width: 90vw;
     margin: 10px;
+}
+
+.image__head-text {
+    font-family: 'Cardo';
+    font-size: 1.5rem;
+    color: #F3E9DC;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.image__bread-text {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #F3E9DC;
+    padding: 0px 10px 5px 10px;
+}
+
+.image__link {
+    font-family: 'Cardo';
+    font-size: 1.25rem;
+    color: #F3E9DC;
+    text-decoration: none;
+    padding: 0px 10px 10px 10px;
+}
+
+.reviews__wrapper {
+    background-color: #282838;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 40px;
+}
+
+.reviews__head-text {
+    font-family: 'Cardo';
+    font-size: 2rem;
+    color: #C1B098;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px 20px 0px 20px;
+}
+
+.reviews__name-text {
+    font-family: 'Cardo';
+    font-size: 1.2rem;
+    color: #C1B098;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px;
+}
+
+.reviews__carousell {
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+}
+
+.reviews__bread-text {
+    font-family: 'Cardo';
+    font-size: 1rem;
+    color: #C1B098;
+    text-align: center;
+    padding: 15px 30px;
 }
 
