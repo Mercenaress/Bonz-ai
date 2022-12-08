@@ -189,7 +189,7 @@ body {
 }
 
 .about-image__wrapper {
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 25vh;
     background: linear-gradient(to bottom, #282838 0%, #282838 50%, #F3E9DC 50%, #F3E9DC 100%);
     display: flex;
@@ -236,7 +236,7 @@ body {
 }
 
 .cabin-image__wrapper {
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 40vh;
     background: linear-gradient(to bottom, #F3E9DC 0%, #F3E9DC 50%, #282838 50%, #282838 100%);
     display: flex;
@@ -252,7 +252,7 @@ body {
     flex-direction: column;
     justify-content: end;
     min-height: 30vh;
-    min-width: 90vw;
+    min-width: 90%;
     margin: 10px;
 }
 
@@ -402,7 +402,7 @@ body {
 }
 
 .room__card-img {
-    max-width: 50vw;
+    max-width: 60%;
 }
 
 .room__card-text__wrapper {
@@ -740,7 +740,42 @@ body {
         grid-column: span 2;
     }
 
-    .room__card-img
+    .room__card--upper {
+        justify-content: flex-start;
+    }
+
+    .room__card-img {
+        max-width: 50%;
+    }
+
+    .room__card-text__wrapper {
+        justify-content: space-between;
+        padding-left: 13rem;
+    }
+
+    .info__card--title {
+        font-size: 3rem;
+    }
+
+    .info__card--cost {
+        text-align: center;
+    }
+
+    .button__brown {
+        font-size: 1.2rem;
+    }
+
+    .room__card--midline {
+        justify-content: flex-start;
+    }
+
+    .room__card--info {
+        border-bottom: 2px solid #713A25 ;
+    }
+
+    .info__card-text {
+        text-align: start;
+    }
 
     /* Footer browser */
 
