@@ -8,6 +8,7 @@
 body {
     display: grid;
     grid-template-columns: 100%;
+    width: 430px;
 }
 
 /* Header Styling */
@@ -332,6 +333,10 @@ body {
     padding: 60px 30px;
 }
 
+.booking__head-text {
+    display: none;
+}
+
 .form__stay-search {
     display: flex;
     flex-direction: column;
@@ -604,6 +609,11 @@ body {
 }
 
 @media screen and (min-width:600px) {
+
+    body {
+        width: 1440px;
+    }
+
     /* Landing Browser */
     .slogan__head-text {
         font-size: 3rem;
@@ -697,6 +707,40 @@ body {
     .reviews__carousell {
         padding: 1rem 30rem 7rem 30rem;
     }
+
+    /* Booking browser */
+
+    .main__booking {
+        padding: 10rem;
+    }
+
+    .booking__head-text {
+        display: block;
+        font-family: 'Cardo';
+        font-size: 2rem;
+        color: #282838;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .form__stay-search {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem 1rem;
+        margin: 0rem 5rem 10rem 5rem;
+    }
+
+    .form__date-picker,
+    .form__visitor-amount {
+        justify-content: space-around;
+    }
+
+    .button__brown--large {
+        grid-column: span 2;
+    }
+
+    .room__card-img
 
     /* Footer browser */
 
