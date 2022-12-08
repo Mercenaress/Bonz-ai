@@ -72,9 +72,8 @@ body {
 
 /* Hamburger Menu Page */
 
-.menu__background {
+.body__menu-page {
     background-color: #282838;
-    min-height: 100vh;
 }
 
 .main__menu {
@@ -82,15 +81,16 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
+    padding: 160px 0px;
 }
 
 .menu__nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10rem 0;
+    justify-content: center;
 }
 
 .menu-text {
@@ -135,6 +135,10 @@ body {
 
 .about__bread-text {
     font-size: 1rem;
+}
+
+.nav__scroll-text {
+    font-size: 1.2rem;
 }
 
 .nav__scroll {
@@ -204,6 +208,9 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top 15px left 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .about__head-text--blue {
@@ -224,6 +231,7 @@ body {
     font-weight: 700;
     text-decoration: none;
     padding: 40px 20px;
+    align-self: flex-start;
 }
 
 .cabin-image__wrapper {
@@ -438,6 +446,10 @@ body {
 
 /* Footer Styling for about and booking */
 
+.footer__logo {
+    display: none;
+}
+
 .footer__about {
     background: #F3E9DC;
 }
@@ -481,7 +493,7 @@ body {
 }
 
 .footer__adress__wrapper {
-    padding: 0px 30px;
+    padding: 30px 30px;
 }
 
 .footer__head-text--blue,
@@ -588,5 +600,132 @@ body {
 }
 
 .footer__icon {
-    padding: 0px 30px 0px 0px;
+    padding: 0px 10px 0px 0px;
+}
+
+@media screen and (min-width:600px) {
+    /* Landing Browser */
+    .slogan__head-text {
+        font-size: 3rem;
+    }
+
+    /* About Browser */
+
+    .about-slogan__wrapper {
+        padding: 15rem 30rem;
+    }
+
+    .about__head-text-top {
+        font-size: 3rem;
+        padding: 5rem 0rem 20rem 10rem;
+    }
+
+    .wrapper__about-us {
+        background-size: 50%;
+        background-position: top 7rem center;
+    }
+    
+    .about__head-text--beige {
+        padding: 0rem 0rem 0rem 10rem;
+        width: 35rem;
+    }
+
+    .about__bread-text--beige,
+    .about__bread-text--blue {
+        width: 30rem;
+    }
+
+    .about__bread-text--beige {
+        padding: 0 0 5rem 10rem;
+    }
+
+    .about-image__wrapper {
+        padding: 0 10rem;
+    }
+
+    .about-image {
+        max-height: 40vh;
+        min-width: 60vw;
+    }
+
+    .wrapper__about-cabins {
+        background-size: 70%;
+        background-position: top 5rem center;
+    }
+
+    .about__head-text--blue {
+        font-size: 3rem;
+        padding: 5rem 10rem;
+    }
+
+    .about__bread-text--blue {
+        margin: 15rem 10rem 0 0;
+    }
+
+    .about__explore {
+        align-self: flex-end;
+        padding: 0 35.5rem 0 0;
+    }
+
+    .cabin-image__wrapper {
+        padding: 3rem 10rem;
+    }
+
+    .cabin-image__overlays {
+        min-height: 60vh;
+    }
+
+    .image__head-text,
+    .image__bread-text,
+    .image__link {
+        padding-left: 1rem;
+    }
+
+    .image__head-text {
+        font-size: 3rem;
+    }
+
+    .image__bread-text,
+    .image__link {
+        font-size: 1.5rem;
+    }
+
+    .reviews__wrapper {
+        padding-bottom: 5rem;
+    }
+
+    .reviews__carousell {
+        padding: 1rem 30rem 7rem 30rem;
+    }
+
+    /* Footer browser */
+
+    .footer__about,
+    .footer__booking {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__logo {
+        display: block;
+        width: 100px;
+        margin: 2rem;
+    }
+
+    .footer__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer__link--blue,
+    .footer__link--beige {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    .footer__bread-text--blue,
+    .footer__bread-text--beige {
+        padding: 0.5rem 0rem;
+    }
 }
