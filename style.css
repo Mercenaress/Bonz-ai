@@ -10,13 +10,7 @@ body {
     grid-template-columns: 100%;
 }
 
-/* Landing Page */
-
-.landing__background {
-    background-image: url(images/09-night.jpg);
-    background-size: cover;
-    min-height: 100vh;
-}
+/* Header Styling */
 
 .header__nav {
     display: flex;
@@ -44,6 +38,14 @@ body {
     text-align: end;
 }
 
+/* Landing Page */
+
+.landing__background {
+    background-image: url(images/09-night.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
 .main__landing {
     min-height: 80vh;
     display: flex;
@@ -51,20 +53,21 @@ body {
     align-items: center;
 }
 
-.slogan__head-text {
+.slogan__head-text,
+.slogan__bread-text {
     font-family: 'Cardo';
-    font-size: 1.7rem;
     color: #fff;
     font-weight: 400;
     text-align: center;
+}
+
+.slogan__head-text {
+    font-size: 1.7rem;
     padding: 10px
 }
 
 .slogan__bread-text {
-    font-family: 'Cardo';
     font-size: 1rem;
-    color: #fff;
-    text-align: center;
 }
 
 /* Hamburger Menu Page */
@@ -72,7 +75,6 @@ body {
 .menu__background {
     background-color: #282838;
     min-height: 100vh;
-
 }
 
 .main__menu {
@@ -117,30 +119,28 @@ body {
     min-height: 80vh;
 }
 
-.about__title-text {
+.about__title-text,
+.about__bread-text,
+.nav__scroll-text {
     font-family: 'Cardo';
-    font-size: 3rem;
     color: #fff;
-    font-weight: 300;
     text-align: center;
+}
+
+.about__title-text {
+    font-size: 3rem;
+    font-weight: 300;
     padding: 10px 0;
 }
 
 .about__bread-text {
-    font-family: 'Cardo';
     font-size: 1rem;
-    color: #fff;
-    text-align: center;
 }
 
 .nav__scroll {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.nav__scroll-text {
-    color: #fff;
 }
 
 .wrapper__about-us {
@@ -151,25 +151,34 @@ body {
     background-position: top 40px right 30px;
 }
 
-.about__head-text-top {
+.about__head-text-top,
+.about__head-text--beige,
+.about__head-text--blue {
     font-family: 'Cardo';
     font-size: 2rem;
-    color: #C1B098;
     font-weight: 300;
+}
+
+.about__head-text-top,
+.about__head-text--beige {
+    color: #C1B098;
+}
+
+.about__head-text-top {
     padding: 10px 30px 150px 30px;
 }
 
 .about__head-text--beige {
-    font-family: 'Cardo';
-    font-size: 2rem;
-    color: #C1B098;
-    font-weight: 300;
     padding: 0px 30px 10px 30px;
 }
 
-.about__bread-text--beige {
+.about__bread-text--beige,
+.about__bread-text--blue {
     font-family: 'Cardo';
     font-size: 1rem;
+}
+
+.about__bread-text--beige {
     color: #C1B098;
     padding: 0px 20px;
 }
@@ -198,17 +207,12 @@ body {
 }
 
 .about__head-text--blue {
-    font-family: 'Cardo';
-    font-size: 2rem;
     color: #282838;
-    font-weight: 300;
     text-align: end;
     padding: 0px 30px 120px 30px;
 }
 
 .about__bread-text--blue {
-    font-family: 'Cardo';
-    font-size: 1rem;
     color: #282838;
     padding: 0px 20px 40px 20px;   
 }
@@ -219,7 +223,7 @@ body {
     color: #713A25;
     font-weight: 700;
     text-decoration: none;
-    padding: 40px;
+    padding: 40px 20px;
 }
 
 .cabin-image__wrapper {
@@ -243,25 +247,26 @@ body {
     margin: 10px;
 }
 
-.image__head-text {
+.image__head-text,
+.image__bread-text,
+.image__link {
     font-family: 'Cardo';
-    font-size: 1.5rem;
     color: #F3E9DC;
+}
+
+.image__head-text {
+    font-size: 1.5rem;
     font-weight: 300;
     padding-left: 10px;
 }
 
 .image__bread-text {
-    font-family: 'Cardo';
     font-size: 1rem;
-    color: #F3E9DC;
     padding: 0px 10px 5px 10px;
 }
 
 .image__link {
-    font-family: 'Cardo';
     font-size: 1.25rem;
-    color: #F3E9DC;
     text-decoration: none;
     padding: 0px 10px 10px 10px;
 }
@@ -272,21 +277,22 @@ body {
     padding-bottom: 40px;
 }
 
-.reviews__head-text {
+.reviews__head-text,
+.reviews__name-text,
+.reviews__bread-text {
     font-family: 'Cardo';
-    font-size: 2rem;
     color: #C1B098;
     font-weight: 300;
     text-align: center;
+}
+
+.reviews__head-text {
+    font-size: 2rem;
     padding: 40px 20px 0px 20px;
 }
 
 .reviews__name-text {
-    font-family: 'Cardo';
     font-size: 1.2rem;
-    color: #C1B098;
-    font-weight: 300;
-    text-align: center;
     padding: 20px;
 }
 
@@ -299,10 +305,7 @@ body {
 }
 
 .reviews__bread-text {
-    font-family: 'Cardo';
     font-size: 1rem;
-    color: #C1B098;
-    text-align: center;
     padding: 15px 30px;
 }
 
@@ -343,7 +346,9 @@ body {
     padding: 30px;
 }
 
-.form__label-text {
+.form__label-text,
+.form__date,
+.form__dropdown {
     font-family: 'Cardo';
     font-size: 1rem;
     color: #282838;
@@ -352,10 +357,6 @@ body {
 
 .form__date,
 .form__dropdown {
-    font-family: 'Cardo';
-    font-size: 1rem;
-    color: #282838;
-    font-weight: 600;
     border: none;
     background-color: #F3E9DC;
     border-bottom: 2px solid #713A25;
@@ -434,6 +435,8 @@ body {
     font-weight: 600;
     text-align: center;
 }
+
+/* Footer Styling for about and booking */
 
 .footer__about {
     background: #F3E9DC;
