@@ -17,21 +17,21 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .header__menu {
-    width: 100px;
+    width: 6.25rem;
 }
 
 .header__logo {
-    width: 60px;
+    width: 3.75rem;
     align-self: center;
     justify-self: center
 }
 
 .header__booking {
-    width: 100px;
+    width: 6.25rem;
     font-family: 'Cardo';
     font-size: 1rem;
     color: #fff;
@@ -64,7 +64,7 @@ body {
 
 .slogan__head-text {
     font-size: 1.7rem;
-    padding: 10px
+    padding: 0.63rem;
 }
 
 .slogan__bread-text {
@@ -84,7 +84,7 @@ body {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    padding: 160px 0px;
+    padding: 10rem 0;
 }
 
 .menu__nav {
@@ -99,7 +99,7 @@ body {
     font-size: 1.2rem;
     color: #C1B098;
     text-decoration: none;
-    padding: 10px;
+    padding: 0.63rem;
 }
 
 /* About us Page */
@@ -116,7 +116,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 150px 30px;
+    padding: 9.4rem 1.9rem;
     min-height: 80vh;
 }
 
@@ -131,7 +131,7 @@ body {
 .about__title-text {
     font-size: 3rem;
     font-weight: 300;
-    padding: 10px 0;
+    padding: 0.63rem 0;
 }
 
 .about__bread-text {
@@ -153,7 +153,7 @@ body {
     background-image: url(images/story-backdrop.svg);
     background-repeat: no-repeat;
     background-size: 80%;
-    background-position: top 40px right 30px;
+    background-position: top 2.5rem right 1.9rem;
 }
 
 .about__head-text-top,
@@ -170,11 +170,11 @@ body {
 }
 
 .about__head-text-top {
-    padding: 10px 30px 150px 30px;
+    padding: 0.63rem 1.9rem 9.4rem 1.9rem;
 }
 
 .about__head-text--beige {
-    padding: 0px 30px 10px 30px;
+    padding: 0 1.9rem 0.63rem 1.9rem;
 }
 
 .about__bread-text--beige,
@@ -185,7 +185,7 @@ body {
 
 .about__bread-text--beige {
     color: #C1B098;
-    padding: 0px 20px;
+    padding: 0 1.25rem;
 }
 
 .about-image__wrapper {
@@ -195,7 +195,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .about-image {
@@ -208,7 +208,7 @@ body {
     background-image: url(images/cabins-backdrop.svg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: top 15px left 20px;
+    background-position: top 1rem left 1.25rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -217,12 +217,12 @@ body {
 .about__head-text--blue {
     color: #282838;
     text-align: end;
-    padding: 0px 30px 120px 30px;
+    padding: 0 1.9rem 7.5rem 1.9rem;
 }
 
 .about__bread-text--blue {
     color: #282838;
-    padding: 0px 20px 40px 20px;   
+    padding: 0 1.25rem 2.5rem 1.25rem;   
 }
 
 .about__explore {
@@ -231,7 +231,7 @@ body {
     color: #713A25;
     font-weight: 700;
     text-decoration: none;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     align-self: flex-start;
 }
 
@@ -253,7 +253,7 @@ body {
     justify-content: end;
     min-height: 30vh;
     min-width: 90%;
-    margin: 10px;
+    margin: 0.63rem;
 }
 
 .image__head-text,
@@ -266,24 +266,24 @@ body {
 .image__head-text {
     font-size: 1.5rem;
     font-weight: 300;
-    padding-left: 10px;
+    padding-left: 0.63rem;
 }
 
 .image__bread-text {
     font-size: 1rem;
-    padding: 0px 10px 5px 10px;
+    padding: 0 0.63rem 0.33rem 0.63rem;
 }
 
 .image__link {
     font-size: 1.25rem;
     text-decoration: none;
-    padding: 0px 10px 10px 10px;
+    padding: 0 0.63rem 0.63rem 0.63rem;
 }
 
 .reviews__wrapper {
     background-color: #282838;
     border-top: 2px solid rgba(0, 0, 0, 0.3);
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .reviews__head-text,
@@ -297,12 +297,12 @@ body {
 
 .reviews__head-text {
     font-size: 2rem;
-    padding: 40px 20px 0px 20px;
+    padding: 2.5rem 1.25rem 0 1.25rem;
 }
 
 .reviews__name-text {
     font-size: 1.2rem;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .reviews__carousell {
@@ -310,12 +310,12 @@ body {
     align-items: center;
     border-top: 2px solid rgba(0, 0, 0, 0.3);
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-    padding: 10px;
+    padding: 0.63rem;
 }
 
 .reviews__bread-text {
     font-size: 1rem;
-    padding: 15px 30px;
+    padding: 1rem 1.9rem;
 }
 
 /* Booking Page */
@@ -330,7 +330,7 @@ body {
 
 .main__booking {
     background-color: #F3E9DC;
-    padding: 60px 30px;
+    padding: 3.75rem 1.9rem;
 }
 
 .booking__head-text {
@@ -341,7 +341,7 @@ body {
     display: flex;
     flex-direction: column;
     border: 2px solid #713A25;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
 }
 
 .form__date-picker,
@@ -356,7 +356,7 @@ body {
 .form__children__wrapper {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 1.9rem;
 }
 
 .form__label-text,
@@ -373,11 +373,11 @@ body {
     border: none;
     background-color: #F3E9DC;
     border-bottom: 2px solid #713A25;
-    margin-top: 10px;
+    margin-top: 0.63rem;
 }
 
 .form__dropdown {
-    min-width: 135px;
+    min-width: 8.44rem;
 }
 
 .button__brown--large,
@@ -392,8 +392,8 @@ body {
 
 .button__brown--large {
     font-size: 1.2rem;
-    padding: 10px 50px;
-    margin: 10px auto;
+    padding: 0.63rem 3.1rem;
+    margin: 0.63rem auto;
 }
 
 .room__card--upper {
@@ -428,17 +428,17 @@ body {
 
 .button__brown {
     font-size: 1rem;
-    padding: 5px 10px;
+    padding: 0.33rem 0.63rem;
 }
 
 .room__card--midline {
     display: flex;
     justify-content: space-between;
-    margin: 15px 0px;
+    margin: 1rem 0;
 }
 
 .room__card--info {
-    margin-bottom: 50px;
+    margin-bottom: 3.1rem;
 }
 
 .info__card-text {
@@ -471,13 +471,13 @@ body {
 .footer__nav--left {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 1.9rem;
 }
 
 .footer__nav--right {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 1.9rem;
 }
 
 .footer__link--blue,
@@ -486,7 +486,7 @@ body {
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
-    padding: 5px 0px;
+    padding: 0.33rem 0;
 }
 
 .footer__link--blue {
@@ -498,14 +498,14 @@ body {
 }
 
 .footer__adress__wrapper {
-    padding: 30px 30px;
+    padding: 1.9rem;
 }
 
 .footer__head-text--blue,
 .footer__head-text--beige {
     font-family: 'Cardo';
     font-size: 1.2rem;
-    padding: 5px 0px;
+    padding: 0.33rem 0;
 }
 
 .footer__head-text--blue {
@@ -534,7 +534,7 @@ body {
 .footer__newsletter-signup__form {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 1.9rem;
 }
 
 .label__nlemail--blue,
@@ -557,7 +557,7 @@ body {
     font-family: 'Cardo';
     font-size: 1.05rem;
     border: none;
-    padding-top: 10px;
+    padding-top: 0.63rem;
 }
 
 .input__nlemail--blue {
@@ -578,7 +578,7 @@ body {
     font-size: 1.2rem;
     color: #713A25;
     border: none;
-    margin: 10px auto 10px 0px;
+    margin: 0.63rem auto 0.63rem 0;
 }
 
 .button__nlemail--blue {
@@ -593,19 +593,19 @@ body {
 
 .footer__app__wrapper {
     display: flex;
-    padding: 0px 30px;
+    padding: 0 1.9rem;
 }
 
 .footer__medias__wrapper {
-    padding: 15px 30px;
+    padding: 1rem 1.9rem;
 }
 
 .footer__media-icons__wrapper {
-    padding: 5px 0px 100px 0px;
+    padding: 0.33rem 0 6.25rem 0;
 }
 
 .footer__icon {
-    padding: 0px 10px 0px 0px;
+    padding: 0 0.63rem 0 0;
 }
 
 @media screen and (min-width:600px) {
@@ -627,7 +627,7 @@ body {
 
     .about__head-text-top {
         font-size: 3rem;
-        padding: 5rem 0rem 20rem 10rem;
+        padding: 5rem 0 20rem 10rem;
     }
 
     .wrapper__about-us {
@@ -636,7 +636,7 @@ body {
     }
     
     .about__head-text--beige {
-        padding: 0rem 0rem 0rem 10rem;
+        padding: 0 0 0 10rem;
         width: 35rem;
     }
 
@@ -728,7 +728,7 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         padding: 1rem 1rem;
-        margin: 0rem 5rem 10rem 5rem;
+        margin: 0 5rem 10rem 5rem;
     }
 
     .form__date-picker,
@@ -805,6 +805,6 @@ body {
 
     .footer__bread-text--blue,
     .footer__bread-text--beige {
-        padding: 0.5rem 0rem;
+        padding: 0.5rem 0;
     }
 }
