@@ -8,7 +8,7 @@
 body {
     display: grid;
     grid-template-columns: 100%;
-    width: 430px;
+    width: 100vw;
 }
 
 /* Header Styling */
@@ -608,11 +608,7 @@ body {
     padding: 0 0.63rem 0 0;
 }
 
-@media screen and (min-width:600px) {
-
-    body {
-        width: 1440px;
-    }
+@media screen and (min-width:800px) {
 
     /* Landing Browser */
     .slogan__head-text {
@@ -622,12 +618,12 @@ body {
     /* About Browser */
 
     .about-slogan__wrapper {
-        padding: 15rem 30rem;
+        padding: 15rem 10rem;
     }
 
     .about__head-text-top {
         font-size: 3rem;
-        padding: 5rem 0 20rem 10rem;
+        padding: 5rem 0 20rem 5rem;
     }
 
     .wrapper__about-us {
@@ -636,7 +632,7 @@ body {
     }
     
     .about__head-text--beige {
-        padding: 0 0 0 10rem;
+        padding: 0 0 0 5rem;
         width: 35rem;
     }
 
@@ -646,11 +642,11 @@ body {
     }
 
     .about__bread-text--beige {
-        padding: 0 0 5rem 10rem;
+        padding: 0 0 5rem 5rem;
     }
 
     .about-image__wrapper {
-        padding: 0 10rem;
+        padding: 0 3rem;
     }
 
     .about-image {
@@ -665,24 +661,25 @@ body {
 
     .about__head-text--blue {
         font-size: 3rem;
-        padding: 5rem 10rem;
+        padding: 5rem;
     }
 
     .about__bread-text--blue {
-        margin: 15rem 10rem 0 0;
+        margin: 15rem 5rem 0 0;
     }
 
     .about__explore {
         align-self: flex-end;
-        padding: 0 35.5rem 0 0;
+        padding: 0 30.5rem 0 0;
     }
 
     .cabin-image__wrapper {
-        padding: 3rem 10rem;
+        padding: 3rem 0rem;
     }
 
     .cabin-image__overlays {
         min-height: 60vh;
+        margin: 0;
     }
 
     .image__head-text,
@@ -705,13 +702,19 @@ body {
     }
 
     .reviews__carousell {
-        padding: 1rem 30rem 7rem 30rem;
+        /* padding: 1rem 10rem 7rem 10rem; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .reviews__bread-text {
+        max-width: 50vw;
     }
 
     /* Booking browser */
 
     .main__booking {
-        padding: 10rem;
+        padding: 5rem;
     }
 
     .booking__head-text {
@@ -724,20 +727,16 @@ body {
         padding-bottom: 1rem;
     }
 
-    .form__stay-search {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 1rem 1rem;
-        margin: 0 5rem 10rem 5rem;
-    }
-
     .form__date-picker,
     .form__visitor-amount {
-        justify-content: space-around;
+        justify-content: center;
     }
 
-    .button__brown--large {
-        grid-column: span 2;
+    .form__arrival__wrapper,
+    .form__departure__wrapper,
+    .form__adults__wrapper,
+    .form__children__wrapper {
+        margin: 0 3rem;
     }
 
     .room__card--upper {
